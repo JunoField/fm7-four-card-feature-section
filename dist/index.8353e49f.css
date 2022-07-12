@@ -99,15 +99,32 @@ footer p {
     display: flex;
   }
 
+  #intro-area #tagline-top {
+    margin-bottom: 0;
+    font-size: 36px;
+  }
+
+  #intro-area #tagline-bottom {
+    margin-top: -4px;
+    font-size: 36px;
+  }
+
+  #intro-area #intro {
+    max-width: 60%;
+    margin: 17px auto 65px;
+    font-size: 15.2px;
+  }
+
   #cards {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: auto auto auto;
-    gap: 0;
+    gap: 29px;
     display: grid;
   }
 
   .product-section {
-    max-width: 350px;
+    width: 350px;
+    height: 250px;
     margin: 0;
   }
 
