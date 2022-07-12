@@ -9,7 +9,7 @@ $veryLightGray: hsl(0, 0%, 98%);
 body{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin: 83px 32px 83px 32px;
+    margin: 83px 32px 77px 32px;
     background-color: white;
 }
 
@@ -89,4 +89,14 @@ p{
 
 #calculator-section{
     border-top-color: $blue;
+}
+
+footer{
+    position: fixed;
+    bottom: -9px;
+    right: 1px;
+
+    p{
+        font-size: 8pt;
+    }
 }
