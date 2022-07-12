@@ -90,4 +90,42 @@ footer p {
   font-size: 8pt;
 }
 
+@media only screen and (min-width: 600px) {
+  body {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    display: flex;
+  }
+
+  #cards {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 0;
+    display: grid;
+  }
+
+  .product-section {
+    max-width: 350px;
+    margin: 0;
+  }
+
+  #supervisor-section {
+    grid-area: 2 / 1 / span 2;
+  }
+
+  #team-builder-section {
+    grid-area: 1 / 2 / span 2;
+  }
+
+  #karma-section {
+    grid-area: 3 / 2 / span 2;
+  }
+
+  #calculator-section {
+    grid-area: 2 / 3 / span 2;
+  }
+}
+
 /*# sourceMappingURL=index.8353e49f.css.map */
