@@ -38,9 +38,31 @@ p{
     color: $grayishBlue;
     font-weight: 400;
     line-height: 24px;
+    margin-bottom: 79px;
 }
 
 .product-section{
     background-color: gray; //temporary
     width: 100%;
+    height: 222px;
+    border-radius: 5px;
+    border-top: 3px solid;
+    text-align: left;
+
+    h1{
+        color: $veryDarkBlue;
+        font-size: 21px;
+        margin: 21px auto auto 27px;
+    }
+    
+    p{
+        margin: 4px auto auto 27px;
+        font-size: 13.2px;
+        line-height: 22px;
+    }
+
+}
+
+#supervisor-section{
+    border-top-color: $cyan;
 }
