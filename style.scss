@@ -69,7 +69,6 @@ p{
         width: 58px;
         position: relative;
         left: 228px;
-        top: 10px;
         top: 34px;
     }
 
@@ -113,6 +112,8 @@ footer{
     }
 
     #intro-area{
+        margin-top: 42px;
+
         #tagline-top{
             font-size: 36px;
             margin-bottom: 0px;
@@ -134,7 +135,6 @@ footer{
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto;
         gap: 29px;
-        //margin: auto 10% auto 10%;
     }
 
 
@@ -143,6 +143,12 @@ footer{
         width: 350px;
         height: 250px;
         margin: 0px 0px 0px 0px;
+
+        img{
+            width: 63px;
+            left: 257px;
+            top: 78px;
+        }
     }
 
     #supervisor-section{
@@ -153,6 +159,9 @@ footer{
     #team-builder-section{
         grid-column: 2;
         grid-row: 1 / span 2;
+        img{
+            top: 55px;
+        }
     }
 
     #karma-section{
@@ -163,5 +172,8 @@ footer{
     #calculator-section{
         grid-column: 3;
         grid-row: 2 / span 2;
+        img{
+            top: 55px;
+        }
     }
 }

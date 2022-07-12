@@ -99,6 +99,10 @@ footer p {
     display: flex;
   }
 
+  #intro-area {
+    margin-top: 42px;
+  }
+
   #intro-area #tagline-top {
     margin-bottom: 0;
     font-size: 36px;
@@ -128,6 +132,12 @@ footer p {
     margin: 0;
   }
 
+  .product-section img {
+    width: 63px;
+    top: 78px;
+    left: 257px;
+  }
+
   #supervisor-section {
     grid-area: 2 / 1 / span 2;
   }
@@ -136,12 +146,20 @@ footer p {
     grid-area: 1 / 2 / span 2;
   }
 
+  #team-builder-section img {
+    top: 55px;
+  }
+
   #karma-section {
     grid-area: 3 / 2 / span 2;
   }
 
   #calculator-section {
     grid-area: 2 / 3 / span 2;
+  }
+
+  #calculator-section img {
+    top: 55px;
   }
 }
 
